@@ -16,7 +16,7 @@ const academia = () => {
         <div className="flex items-center justify-center gap-x-10 text-white text-left ">
           
           <p className="max-w-xl text-lg leading-relaxed">
-          é ne
+          Sou estudante de Sistemas para Internet na Universidade Católica de Pernambuco, estou no terceiro período do curso e pretendo me especializar em Inteligência Artificial e Banco de Dados. Tenho conhecimento em diversas áreas como: Desenvolvimento Web, Banco de Dados, Desenvolvimento Backend, Java, PowerBI. Além das habilidades técnicas, possuo soft skills como: comunicação, liderança e trabalho em grupo. 
           </p>
         </div>
       </div>
