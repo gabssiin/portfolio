@@ -48,7 +48,7 @@ export default function Home() {
           {" "}
           Olá, esse é o meu portfólio para os meus projetos.{" "}
         </p>
-        <div className="flex space-x-6">
+        <div className="flex space-x-6 ml-2">
           <a
             href="#"
             className="hover:opacity-100 bg-gradient-to-r from-cyan-500 to-cyan-400 scale-110 transition-all duration-300 hover:scale-130"
