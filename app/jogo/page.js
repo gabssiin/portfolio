@@ -1,15 +1,13 @@
-// app/sobremim/page.js
 "use client";
 
 import React from 'react';
+import BullsAndCowsGame from '../components/BullsAndCows';
+import SideMenu from '../components/SideMenu';
 
 export default function jogo() {
   return (
     <div>
-      <h1>jogo</h1>
-      {/* Adicione o conteúdo da sua página "Sobre mim" aqui */ 
-      <h1> Opa </h1>
-      }
+     <BullsAndCowsGame></BullsAndCowsGame> <SideMenu/>
     </div>
   );
 }

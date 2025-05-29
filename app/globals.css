@@ -5,7 +5,7 @@
 
 
 :root {
-  --background: #202C39;
+  --background: #12181f;
   --foreground: #ededed;
   --font-lexend: sans-serif; 
   --font-orbitron: 'Silkscreen', sans-serif; 
@@ -19,7 +19,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #202C39;
+    --background: #12181f;
     --foreground: #ededed;
     --menu: #171F28;
   }

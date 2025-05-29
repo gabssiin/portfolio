@@ -70,15 +70,7 @@ const SideMenu = () => {
           className="flex items-center py-2 text-xl hover:opacity-90"
         >
           <FiGrid size={30} color="white" className="mr-4" />
-          <span className="text-xl"> Portfólio </span>
-        </a>
-
-        <a
-          href="/contato"
-          className="flex items-center py-2 text-xl hover:opacity-90"
-        >
-          <FiPhone size={30} color="white" className="mr-4" />
-          <span className="text-xl">Contato </span>
+          <span className="text-xl"> Projetos Desenvolvidos </span>
         </a>
 
         <a
