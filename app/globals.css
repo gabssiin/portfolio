@@ -102,7 +102,7 @@ body {
 }
 
 .animate-pulse {
-  animation: pulse 2s ease-in-out infinite;
+  animation: pulse 10s ease-in-out infinite;
 }
 
 @keyframes slide-in-and-out {
