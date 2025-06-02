@@ -1,13 +1,12 @@
-// app/page.js
-"use client"; // Certo, é um componente client-side
+
+"use client"; 
 
 import React from "react";
 import Image from "next/image";
 import { FaLinkedin } from "react-icons/fa";
 import { FaSquareGithub } from "react-icons/fa6";
 import SideMenu from "./components/SideMenu";
-import { Shape7 } from "./components/GeometricShapes"; // Verifique este arquivo
-import Footer from "./components/Footer"; // Verifique este arquivo
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -23,7 +22,6 @@ export default function Home() {
       </div>
 
       <div className="absolute top-0 left-0 z-0 opacity-80 animate-pulse">
-        <Shape7 />
       </div>
 
       <div className="flex flex-col justify-center items-start w-1/2 text-white p-16">

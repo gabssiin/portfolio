@@ -1,4 +1,3 @@
-// app/portfolio/page.js
 "use client";
 
 import React from 'react';
