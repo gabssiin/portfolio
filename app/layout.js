@@ -1,5 +1,5 @@
 // app/layout.js
-import { Lexend, Silkscreen } from '@next/font/google'; 
+import { Lexend, Silkscreen } from "next/font/google"; 
 import "./globals.css";
 
 const lexend = Lexend({
