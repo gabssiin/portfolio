@@ -1,5 +1,4 @@
-
-"use client"; 
+"use client";
 
 import React, { useState } from "react";
 import { FaRegUser } from "react-icons/fa";
@@ -9,7 +8,6 @@ import { MdOutlineWorkOutline } from "react-icons/md";
 import { FiAlignRight, FiPhone } from "react-icons/fi";
 import { FiGrid } from "react-icons/fi";
 import { HiOutlineAcademicCap } from "react-icons/hi";
-
 
 const SideMenu = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -89,7 +87,8 @@ const SideMenu = () => {
           <span className="text-xl">Tecnologias Usadas</span>
         </a>
 
-        <span className="text-white mt-70 ml-35 text-3xl font-['Silkscreen'] font-light">
+        <span className="text-white mt-70 ml-35 text-3xl font-silkscreen font-light">
+          {" "}
           &lt;<span className="text-cyan-500">G</span>/&gt;
         </span>
       </div>

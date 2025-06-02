@@ -299,7 +299,7 @@ const Shape7 = () => (
       width: "50px",
       height: "50px",
       backgroundColor: "#fff", // A cor da forma
-      borderRadius: "0 50px 0 0", // Curva apenas no canto superior direito
+      borderRadius: "0 0 50px 0", // Curva apenas no canto superior direito
     }}
   />
 );

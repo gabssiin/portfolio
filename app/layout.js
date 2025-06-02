@@ -1,10 +1,16 @@
-import { Lexend } from '@next/font/google';
-
+// app/layout.js
+import { Lexend, Silkscreen } from '@next/font/google'; 
 import "./globals.css";
 
 const lexend = Lexend({
-  subsets: ['latin'], 
+  subsets: ['latin'],
   variable: '--font-lexend', 
+});
+
+const silkscreen = Silkscreen({
+  subsets: ['latin'],
+  weight: '400', 
+  variable: '--font-silkscreen',
 });
 
 export const metadata = {
@@ -15,7 +21,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${lexend.className} antialiased`}> {}
+    
+      <body className={`${lexend.className} ${silkscreen.variable} antialiased`}>
         {children}
       </body>
     </html>

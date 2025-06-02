@@ -58,15 +58,12 @@ export default function BullsAndCowsGame() {
     console.log("Novo jogo iniciado. Código secreto:", generateSecretCode());
   };
 
-  // Valida o input do usuário
   const validateGuess = (guess) => {
     if (guess.length !== 4) {
       return "A senha deve ter 4 dígitos.";
     }
     for (let i = 0; i < guess.length; i++) {
       const char = guess[i];
-      // Verifica se o caractere não é um dígito (0-9)
-      // Se qualquer caractere não for um número, retorna o erro.
       if (char < "0" || char > "9") {
         return "A senha deve conter apenas números.";
       }
@@ -74,10 +71,9 @@ export default function BullsAndCowsGame() {
     if (new Set(guess.split("")).size !== 4) {
       return "Os dígitos da senha devem ser únicos.";
     }
-    return ""; // Retorna string vazia se válido
+    return "";
   };
 
-  // Calcula 'Bulls' e 'Cows'
   const calculateBullsAndCows = (guess, secret) => {
     let bulls = 0;
     let cows = 0;
@@ -116,12 +112,14 @@ export default function BullsAndCowsGame() {
     if (bulls === 4) {
       setGameWon(true);
       setGameOver(true);
-      setMessageText(`Parabéns! Você acertou a senha '${secretCode}'!`);
+      setMessageText(
+        `Parabéns! Você acertou a senha secreta: '${secretCode}'!`
+      );
       setShowMessage(true);
     } else if (attemptsLeft - 1 === 0) {
       setGameOver(true);
       setMessageText(
-        `Fim de jogo! Você não conseguiu adivinhar a senha. A senha era '${secretCode}'.`
+        `Fim de jogo! Você não conseguiu adivinhar a senha. A senha era: '${secretCode}'.`
       );
       setShowMessage(true);
     }
@@ -313,7 +311,6 @@ export default function BullsAndCowsGame() {
         </>
       )}
 
-      {/* Estilos CSS para o scrollbar customizado */}
       <style jsx>{`
         .custom-scrollbar::-webkit-scrollbar {
           width: 8px;

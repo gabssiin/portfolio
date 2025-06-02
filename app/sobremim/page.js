@@ -1,9 +1,10 @@
+
 "use client";
 
 import React from "react";
 import { FaRegUser } from "react-icons/fa";
-import SideMenu from "../components/SideMenu";
-import LoGo from "../components/LoGo";
+import SideMenu from "../components/SideMenu"; 
+import LoGo from "../components/LoGo"; 
 
 const SobreMim = () => {
   return (
